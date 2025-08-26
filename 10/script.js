@@ -8,5 +8,6 @@ var once = function(fn) {
             obj.calls = 0
             return obj.val
         }
+        return undefined
     }
 };
